@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D1_CalorieCounting", "D1_CalorieCounting\D1_CalorieCounting.csproj", "{8EC6E7F7-653B-491F-A93C-01F8401E3592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D1_CalorieCounting.Tests", "D1_CalorieCounting.Tests\D1_CalorieCounting.Tests.csproj", "{4FBC3B3B-6FEF-46C8-848C-596338DD2458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC6E7F7-653B-491F-A93C-01F8401E3592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC6E7F7-653B-491F-A93C-01F8401E3592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC6E7F7-653B-491F-A93C-01F8401E3592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC6E7F7-653B-491F-A93C-01F8401E3592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBC3B3B-6FEF-46C8-848C-596338DD2458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBC3B3B-6FEF-46C8-848C-596338DD2458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBC3B3B-6FEF-46C8-848C-596338DD2458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBC3B3B-6FEF-46C8-848C-596338DD2458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F4E9B0F-9415-459B-8E4B-E67E912F87EF}
+	EndGlobalSection
+EndGlobal
