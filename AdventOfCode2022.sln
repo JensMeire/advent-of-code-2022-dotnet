@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D4_CampCleanup", "D4_CampCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D5_SupplyStacks", "D5_SupplyStacks\D5_SupplyStacks.csproj", "{512A0CF6-C1F4-4768-B881-6DD80EB1549E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D6_TuningTrouble", "D6_TuningTrouble\D6_TuningTrouble.csproj", "{C324C961-6418-4127-B4F1-10A5110FEF9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{512A0CF6-C1F4-4768-B881-6DD80EB1549E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512A0CF6-C1F4-4768-B881-6DD80EB1549E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512A0CF6-C1F4-4768-B881-6DD80EB1549E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
