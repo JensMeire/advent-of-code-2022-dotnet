@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D5_SupplyStacks", "D5_Suppl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D6_TuningTrouble", "D6_TuningTrouble\D6_TuningTrouble.csproj", "{C324C961-6418-4127-B4F1-10A5110FEF9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D7_NoSpaceLeftOnDevice", "D&_NoSpaceLeftOnDevice\D7_NoSpaceLeftOnDevice.csproj", "{AFA23971-1F11-426F-B418-08AB2E920F49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C324C961-6418-4127-B4F1-10A5110FEF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA23971-1F11-426F-B418-08AB2E920F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA23971-1F11-426F-B418-08AB2E920F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA23971-1F11-426F-B418-08AB2E920F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA23971-1F11-426F-B418-08AB2E920F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
