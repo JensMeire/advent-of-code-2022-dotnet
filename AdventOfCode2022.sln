@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D6_TuningTrouble", "D6_Tuni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D7_NoSpaceLeftOnDevice", "D&_NoSpaceLeftOnDevice\D7_NoSpaceLeftOnDevice.csproj", "{AFA23971-1F11-426F-B418-08AB2E920F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D8_TreetopTreeHouse", "D8_TreetopTreeHouse\D8_TreetopTreeHouse.csproj", "{97F0021C-F585-444E-A8E7-836C54D47F8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{AFA23971-1F11-426F-B418-08AB2E920F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA23971-1F11-426F-B418-08AB2E920F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA23971-1F11-426F-B418-08AB2E920F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F0021C-F585-444E-A8E7-836C54D47F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F0021C-F585-444E-A8E7-836C54D47F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F0021C-F585-444E-A8E7-836C54D47F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F0021C-F585-444E-A8E7-836C54D47F8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
