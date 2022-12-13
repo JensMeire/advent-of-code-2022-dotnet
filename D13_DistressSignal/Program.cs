@@ -28,7 +28,15 @@ List<object> GetValueLine(string line)
             result.Add(res.result);
             index = res.newIndex;
         }
-        else if (char.IsNumber(line[index])) result.Add(line[index] - '0');
+        else if (char.IsNumber(line[index]))
+        {
+            var number = line[index] - '0';
+            if(number == 1 && index != line.Length - 1 && char.IsNumber(line[index + 1]))
+            {
+                number = number * 10 + (line[index + 1] - '0');
+            }
+            result.Add(number);
+        }
         else if (line[index] == ']')
         {
             break;
@@ -42,7 +50,24 @@ for(var i = 0; i < pairs.Count; i++)
     if (IsCorrect(pairs[i].Item1, pairs[i].Item2) == true) result += (i + 1);
 }
 
-Console.WriteLine(result);
+// Part1
+
+var all = pairs.SelectMany(x =>
+{
+    return new List<List<object>> { x.Item1, x.Item2 };
+}).ToList();
+
+all.Add(GetValueLine("[[2]]"));
+all.Add(GetValueLine("[[6]]"));
+
+all.Sort((x, y) =>
+{
+    return (bool)IsCorrect(x, y) ? -1 : 11;
+});
+var stringValues = all.Select(x => GetStringValue(x)).ToList();
+var indexOf2 = stringValues.IndexOf("[[2]]") + 1;
+var indexOf6 = stringValues.IndexOf("[[6]]") + 1;
+Console.WriteLine(indexOf2 * indexOf6);
 
 
 bool? IsCorrect(object o1, object o2)
@@ -86,4 +111,23 @@ bool IsList(object o)
     return o is IList &&
        o.GetType().IsGenericType &&
        o.GetType().GetGenericTypeDefinition().IsAssignableFrom(typeof(List<>));
+}
+
+string GetStringValue(List<object> line) => $"[{Print(line)}]";
+
+string Print(List<object> line, string result = "")
+{
+    for(var i = 0; i < line.Count; i ++)
+    {
+        var obj = line[i];
+        if (obj is int) result += ((int)obj).ToString();
+        else {
+            result += $"[{Print(obj as List<object>)}]";
+        }
+
+
+        if (i != line.Count - 1) result += ",";
+    }
+
+    return result;
 }
